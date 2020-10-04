@@ -9,6 +9,7 @@
   --background-color: #edeef6;
   --accent-color: #9fc6cd;
   --heading-color: #31343e;
+  --error-color: rgb(228, 46, 1);
 }
 
 body {
@@ -19,6 +20,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: var(--primary-color);
+  padding-bottom: 50px;
 }
 
 code {
@@ -105,23 +107,39 @@ header nav ul li span:hover{
 }
 .section-container{
   display: flex;
+  /* flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start; */
+  margin-top: 30px;
+
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
-  margin-top: 30px;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+
 }
 .section-left{
-  text-align: right;
+  /* text-align: right;
   width: 15%;
   padding-right: 20px;
   align-self: stretch;
-  border-right: solid 3px var(--primary-color);
+  border-right: solid 3px var(--primary-color); */
+  border-right: none;
+  text-align: left;
+  margin-bottom: 20px;
+  width: 100%;
+  padding-left: 20px; 
+  padding-right: 20px;
 }
 .section-left h2{
   font-size: 2.3vw;
+  /* border-bottom: solid 3px var(--primary-color); */
+  display: inline;
 }
 .section-right{
-  width: 75%;
+  width: 100%;
   padding: 0 0px 0px 20px;
   align-self: stretch;
 }
@@ -152,7 +170,7 @@ header nav ul li span:hover{
 /* about me start */
 .about-me-p{
   line-height: 1.5;
-  font-size: 15px;
+  font-size: 18px;
   padding-bottom: 15px;
 }
 /* about me end */
@@ -196,10 +214,10 @@ header nav ul li span:hover{
 .work-grid-item-1{
   grid-column: 1/span 2;
   grid-row: 1/span 2;
-  background-image: url("./assets/projects/projectMain.png");
+  background-image: url("./assets/projects/rentzsite.jpg");
 }
 .work-grid-item-2{
-  background-image: url("./assets/projects/project2.png");
+  background-image: url("./assets/projects/cardsocial.png");
 }
 .work-grid-item-3{
   background-image: url("./assets/projects/project3.jpg");
@@ -243,7 +261,14 @@ header nav ul li span:hover{
 .work-card-subtitle{
   font-size: 0.8vw;
 }
+.work-card-link{
+  color: var(--primary-color);
+}
 /* Work section end */ 
+
+.error-text{
+  color: var(--error-color);
+}
 
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
@@ -256,7 +281,7 @@ header nav ul li span:hover{
       margin-left: 5%;
       margin-right: 5%;
       }
-  .section-left{
+  /* .section-left{
       border-right: none;
       text-align: center;
       margin-bottom: 20px;
@@ -267,7 +292,7 @@ header nav ul li span:hover{
       padding-left: 60px;
       padding-right: 60px;
       display: inline;
-  }
+  } */
   .section-right{
       width: 100%;
   }
