@@ -266,9 +266,44 @@ header nav ul li span:hover{
 }
 /* Work section end */ 
 
+/* contact form */
 .error-text{
   color: var(--error-color);
 }
+.label{
+  color: var(--primary-color);
+  padding-bottom: 0px;
+}
+.input{
+  color: var(--primary-color);
+  width: 400px;
+  height: 40px;
+}
+.textarea{
+  color: var(--primary-color);
+  width: 400px;
+  height: 140px;
+}
+.button {
+  margin-top: 20px;
+  background-color: var(--accent-color);
+  border: none;
+  color: var(--heading-color);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  width: 200px;
+}
+.h3-resume{
+  font-size: 20px;
+}
+
+.ul-resume{
+  padding-left: 40px;
+}
+/* end contact form */
+
 
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */

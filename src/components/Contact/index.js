@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { validateEmail } from '../../utils/helpers';
+import { validateEmail, capitalizeFirstLetter } from '../../utils/helpers';
 
 function Contact() {
 
@@ -18,7 +18,7 @@ function Contact() {
         } 
         else {
             if (!e.target.value.length) {
-                setErrorMessage(`${e.target.name} is required.`);
+                setErrorMessage(`${capitalizeFirstLetter(e.target.name)} is required.`);
             } else {
                 setErrorMessage('');
             }
@@ -42,24 +42,24 @@ function Contact() {
             </div>     
             <div className="section-right">
                 <form id="contact-form" onSubmit={handleSubmit}>
-                    <div>
-                        <label htmlFor="name">Name:</label>
-                        <input type="text" name="name" defaultValue={name} onBlur={handleChange}/>
+                    <div className="form-group">
+                        <label htmlFor="name" className="about-me-p label">Name:</label><br></br>
+                        <input type="text" name="name"  className="input" defaultValue={name} onBlur={handleChange}/>
                     </div>
-                    <div>
-                        <label htmlFor="email">Email address:</label>
-                        <input type="email" name="email" defaultValue={email} onBlur={handleChange}/>
+                    <div className="form-group">
+                        <label htmlFor="email" className="about-me-p label">Email address:</label><br></br>
+                        <input type="email" name="email" className="input" defaultValue={email} onBlur={handleChange} placeholder="name@example.com"/>
                     </div>
-                    <div>
-                        <label htmlFor="message">Message:</label>
-                        <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+                    <div className="form-group">
+                        <label htmlFor="message" className="about-me-p label">Message:</label><br></br>
+                        <textarea name="message" rows="5" className="textarea" defaultValue={message} onBlur={handleChange} />
                     </div>
                     {errorMessage && (
                         <div>
                             <p className="error-text">{errorMessage}</p>
                         </div>
                     )}
-                    <button type="submit">Submit</button>
+                    <button type="submit" className="button">Submit</button>
                 </form>
             </div>       
 
