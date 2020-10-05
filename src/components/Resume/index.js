@@ -1,4 +1,5 @@
 import React from "react";
+import resumePDF from '../../assets/resume/Resume_EK.pdf';
 
 function Resume() {
 
@@ -12,9 +13,8 @@ function Resume() {
             </div>     
             <div className="section-right">
                 <p className="about-me-p">
-                    Download my <a href="./assets/resume/Resume_EK.pdf" target="_blank">Resume</a>
+                    Download my <a href={resumePDF} target="_blank" rel="noopener noreferrer" className='resumeDownload'>Resume</a> here.
                 </p>
-                <p className="about-me-p">
                     <h3>Front-end Proficiencies</h3>
                     <ul className='ul-resume'>
                         {frontEnd.map((skill) => (
@@ -25,8 +25,6 @@ function Resume() {
                             </li>
                         ))}
                     </ul>                    
-                </p>
-                <p className="about-me-p">
                     <h3>Back-end Proficiencies</h3>
                     <ul className='ul-resume'>
                         {backEnd.map((skill) => (
@@ -37,7 +35,6 @@ function Resume() {
                             </li>
                         ))}
                     </ul>                    
-                </p>
             </div>       
 
         </section>

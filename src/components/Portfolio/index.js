@@ -5,31 +5,38 @@ function Portfolio() {
     const [projects] = useState([
         {
             fileName : './assets/projects/cardsocial.png',
-            title: 'CardSocial',
-            technology: 'Node.js/Express/MySQL/Sequelize/JavaScript',
+            title: 'Card Social',
+            technology: 'Node.js|Express|MySQL|Sequelize|MVC|JavaScript',
             githubLink: 'https://github.com/evkonradi/CardSocial',
-            deployedLink: ''
+            deployedLink: 'https://cryptic-shelf-96558.herokuapp.com/'
         },
         {
-            fileName : './assets/projects/project3.jpg',
-            title: 'Calculator',
-            technology: 'React/JavaScript/CSS',
-            githubLink: '',
-            deployedLink: ''
+            fileName : './assets/projects/badget-tracker.jpg',
+            title: 'Badget Tracker',
+            technology: 'Node|Express|MongoDB|PWA|Heroku|Atlas MongoDB',
+            githubLink: 'https://github.com/evkonradi/badget-tracker',
+            deployedLink: 'https://arcane-ravine-44020.herokuapp.com/'
         },
         {
-            fileName : './assets/projects/project_4.png',
-            title: 'Pastel Puzzels',
-            technology: 'MERN Stack',
-            githubLink: '',
-            deployedLink: ''
+            fileName : './assets/projects/tech-blog.jpg',
+            title: 'Tech Blog',
+            technology: 'Node|Express|MySQL|MVC|ORM',
+            githubLink: 'https://github.com/evkonradi/techBlog',
+            deployedLink: 'https://immense-reaches-05057.herokuapp.com/'
         },
         {
-            fileName : './assets/projects/project5.jpg',
-            title: 'Run Buddy',
-            technology: 'HTML/CSS',
-            githubLink: '',
-            deployedLink: ''
+            fileName : './assets/projects/e-commerce-APIs.jpg',
+            title: 'E-Commerce Server-side APIs',
+            technology: 'Node|Express|MySQL|Insomnia',
+            githubLink: 'https://github.com/evkonradi/e-commerce',
+            deployedLink: 'https://drive.google.com/file/d/11fDNyAmj2zRqzddM2fHlUWQJWdoG6hqJ/view?usp=sharing'
+        },
+        {
+            fileName : './assets/projects/weather-dashboard.jpg',
+            title: 'Weather Dashboard',
+            technology: 'HTML|JavaScript|Bootstrap|Server-side APIs',
+            githubLink: 'https://github.com/evkonradi/WeatherDashboard',
+            deployedLink: 'https://evkonradi.github.io/WeatherDashboard/'
         }
     ])
 
@@ -47,8 +54,8 @@ function Portfolio() {
                 <article className="work-grid-item work-grid-item-1">
                     <div className="card work-card-flex">
                         <a href = "https://github.com/pochobs/project1" className="work-card-link">
-                            <p className="work-card-title">Rentz rentals</p>
-                            <p className="work-card-subtitle">Server APIs/JavaScript/CSS Foundation</p>
+                            <p className="work-card-title">Rentz Rentals</p>
+                            <p className="work-card-subtitle">Server APIs|JavaScript|CSS Foundation</p>
                         </a>
                     </div>
                 </article>

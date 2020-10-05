@@ -20,7 +20,15 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: var(--primary-color);
-  padding-bottom: 50px;
+
+  /* to put footer at the bottom of the page */
+  min-height:100%; 
+  position:relative; 
+  padding-bottom:100px;
+}
+
+html{
+  height: 100%;
 }
 
 code {
@@ -220,13 +228,16 @@ header nav ul li span:hover{
   background-image: url("./assets/projects/cardsocial.png");
 }
 .work-grid-item-3{
-  background-image: url("./assets/projects/project3.jpg");
+  background-image: url("./assets/projects/badget-tracker.jpg");
 }
 .work-grid-item-4{
-  background-image: url("./assets/projects/project_4.png");
+  background-image: url("./assets/projects/tech-blog.jpg");
 }
 .work-grid-item-5{
-  background-image: url("./assets/projects/project5.jpg");
+  background-image: url("./assets/projects/e-commerce-APIs.jpg");
+}
+.work-grid-item-6{
+  background-image: url("./assets/projects/weather-dashboard.jpg");
 }
 .work-grid-item::after{
   content: "";
@@ -302,8 +313,34 @@ header nav ul li span:hover{
 .ul-resume{
   padding-left: 40px;
 }
+.resumeDownload{
+  color: var(--heading-color);
+  font-style: italic;
+  font-size: 20px;
+}
 /* end contact form */
 
+/* footer start*/
+footer{
+  margin-top: 40px;
+  background-color: var(--heading-color);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+
+  /* to put footer at the bottom of the page*/
+  position: absolute; 
+  left: 0 ; right: 0; bottom: 0; 
+  height:60px; 
+}
+
+.icon-footer{
+  height: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+/* footer end*/
 
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
