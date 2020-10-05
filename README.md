@@ -20,4 +20,4 @@ https://github.com/evkonradi/portfolio-ek
 # Page preview
 
 This is the preview of the initial page:
-<img src="./assets/PagePreview.jpg">
+<img src="./src/assets/PagePreview.jpg">
