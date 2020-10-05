@@ -15,7 +15,7 @@ https://github.com/evkonradi/portfolio-ek
 
 # Deployed application:
 
-https://arcane-ravine-44020.herokuapp.com/
+ https://evkonradi.github.io/portfolio-ek/
 
 # Page preview
 
