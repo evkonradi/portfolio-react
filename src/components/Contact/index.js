@@ -48,7 +48,7 @@ function Contact() {
                     </div>
                     <div className="form-group">
                         <label htmlFor="email" className="about-me-p label">Email address:</label><br></br>
-                        <input type="email" name="email" className="input" defaultValue={email} onBlur={handleChange} placeholder="name@example.com"/>
+                        <input type="email" name="email" className="input" defaultValue={email} onBlur={handleChange} placeholder="email@example.com"/>
                     </div>
                     <div className="form-group">
                         <label htmlFor="message" className="about-me-p label">Message:</label><br></br>
