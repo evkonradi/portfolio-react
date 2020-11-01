@@ -11,6 +11,13 @@ function Portfolio() {
             deployedLink: 'https://cryptic-shelf-96558.herokuapp.com/'
         },
         {
+            fileName : './assets/projects/rentzsite.jpg',
+            title: 'Rentz Rentals',
+            technology: 'Server APIs|JavaScript|CSS Foundation',
+            githubLink: 'https://github.com/pochobs/project1',
+            deployedLink: 'https://github.com/pochobs/project1'
+        },
+        {
             fileName : './assets/projects/badget-tracker.jpg',
             title: 'Badget Tracker',
             technology: 'Node|Express|MongoDB|PWA|Heroku|Atlas MongoDB',
@@ -53,9 +60,9 @@ function Portfolio() {
             <div className="section-right work-grid">
                 <article className="work-grid-item work-grid-item-1">
                     <div className="card work-card-flex">
-                        <a href = "https://github.com/pochobs/project1" className="work-card-link">
-                            <p className="work-card-title">Rentz Rentals</p>
-                            <p className="work-card-subtitle">Server APIs|JavaScript|CSS Foundation</p>
+                        <a href = "https://github.com/evkonradi/teach-me-to" className="work-card-link">
+                            <p className="work-card-title">Teach Me To</p>
+                            <p className="work-card-subtitle">Mongo|Express|React|Node|GraphQL|PWA</p>
                         </a>
                     </div>
                 </article>

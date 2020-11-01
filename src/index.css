@@ -222,21 +222,24 @@ header nav ul li span:hover{
 .work-grid-item-1{
   grid-column: 1/span 2;
   grid-row: 1/span 2;
-  background-image: url("./assets/projects/rentzsite.jpg");
+  background-image: url("./assets/projects/teach-me-to.jpg");
 }
 .work-grid-item-2{
   background-image: url("./assets/projects/cardsocial.png");
 }
 .work-grid-item-3{
-  background-image: url("./assets/projects/badget-tracker.jpg");
+  background-image: url("./assets/projects/rentzsite.jpg");
 }
 .work-grid-item-4{
-  background-image: url("./assets/projects/tech-blog.jpg");
+  background-image: url("./assets/projects/badget-tracker.jpg");
 }
 .work-grid-item-5{
-  background-image: url("./assets/projects/e-commerce-APIs.jpg");
+  background-image: url("./assets/projects/tech-blog.jpg");
 }
 .work-grid-item-6{
+  background-image: url("./assets/projects/e-commerce-APIs.jpg");
+}
+.work-grid-item-7{
   background-image: url("./assets/projects/weather-dashboard.jpg");
 }
 .work-grid-item::after{
