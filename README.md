@@ -1,6 +1,6 @@
 # React Portfolio
 
-Portfolio of work samples created with React. 
+This is a Portfolio of my work. Please visit the deployed website to see my projects.
 
 # Technologies used
 

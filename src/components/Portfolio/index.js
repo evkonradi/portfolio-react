@@ -14,8 +14,8 @@ function Portfolio() {
             fileName : './assets/projects/rentzsite.jpg',
             title: 'Rentz Rentals',
             technology: 'Server APIs|JavaScript|CSS Foundation',
-            githubLink: 'https://github.com/pochobs/project1',
-            deployedLink: 'https://github.com/pochobs/project1'
+            githubLink: 'https://github.com/evkonradi/Rentz',
+            deployedLink: 'https://evkonradi.github.io/Rentz/'
         },
         {
             fileName : './assets/projects/badget-tracker.jpg',
