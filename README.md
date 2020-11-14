@@ -1,6 +1,6 @@
 # React Portfolio
 
-This is a Portfolio of my work. Please visit the deployed website to see my projects.
+This is a Portfolio sample create with React.
 
 # Technologies used
 
@@ -11,11 +11,11 @@ This is a Portfolio of my work. Please visit the deployed website to see my proj
 
 # GitHub repository
 
-https://github.com/evkonradi/portfolio-ek
+https://github.com/evkonradi/portfolio-react
 
 # Deployed application:
 
- https://evkonradi.github.io/portfolio-ek/
+ https://evkonradi.github.io/portfolio-react/
 
 # Page preview
 
